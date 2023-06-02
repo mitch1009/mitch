@@ -1,12 +1,12 @@
 {
   "name": "mitchjs",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
     "doc": "pnpm --filter mitch-docs",
-    "lib":"pnpm --filter mitch",
+    "lib": "pnpm --filter mitch",
     "release": "standard-version"
   },
   "keywords": [],
