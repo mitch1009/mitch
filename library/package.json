@@ -1,6 +1,6 @@
 {
   "name": "mitchjs",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "Important libraries crafted for use in any project",
   "main": "dist/atoria.cjs.js",
   "module": "dist/atoria.esm.js",
