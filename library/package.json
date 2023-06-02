@@ -1,6 +1,6 @@
 {
   "name": "mitchjs",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Important libraries crafted for use in any project",
   "main": "dist/atoria.cjs.js",
   "module": "dist/atoria.esm.js",
@@ -8,7 +8,8 @@
   "scripts": {
     "build": "rollup -c",
     "test": "node testing/index.ts",
-    "publish": "npm pulish --acces publish"
+    "publish": "npm pulish --acces publish",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "",
@@ -37,7 +38,5 @@
   "peerDependencies": {
     "nodemailer": "^6.9.3",
     "twilio": "^4.11.2"
-
   }
-
 }
