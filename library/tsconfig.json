@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "es2020",
+        "moduleResolution": "node",
+        "target": "es5",
+        "outDir": "dist",
+        "rootDir": "mitch",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true
+    },
+    "include": ["atoria"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
